@@ -1,65 +1,52 @@
 import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
-import { FaMicrophone } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
+import { ImMic } from "react-icons/im";
 import { IoIosNotificationsOutline } from "react-icons/io";
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "../utils/appSlice";
 
 const Head = () => {
-  return (
-    <div className="flex items-center justify-between px-4 py-2 bg-white shadow-md sticky top-0 z-50">
-      {/* Left - Hamburger + Logo */}
-      <div className="flex items-center gap-4">
-        <div className="p-2 hover:bg-gray-200 rounded-full cursor-pointer transition">
-          <RxHamburgerMenu className="text-2xl" />
-        </div>
-        <img
-          src="https://www.youtube.com/img/desktop/yt_1200.png"
-          alt="YouTube Logo"
-          className="w-24 h-auto"
-        />
-      </div>
+  const dispatch = useDispatch();
 
-      {/* Middle - Search Bar */}
-      <div className="flex items-center w-[40%] max-w-xl">
-        <input
-          type="text"
-          placeholder="Search"
-          className="w-full h-10 border border-gray-300 rounded-l-full pl-4 text-sm focus:outline-none"
+  const toggleMenuHandler = () => {
+    dispatch(toggleMenu());
+  };
+
+  return (
+    <div className="grid grid-flow-col items-center p-4 px-6 shadow-md">
+      <div className="flex items-center gap-4 col-span-1">
+        <RxHamburgerMenu className="h-6 w-6 cursor-pointer" onClick={() => toggleMenuHandler()}/>
+        <a href="/">
+        <img
+          className="h-6"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1200px-YouTube_Logo_2017.svg.png"
+          alt="youtube-logo"
         />
-        {/* Search Button with Tooltip */}
-        <div className="relative group">
-          <button className="h-10 w-14 bg-gray-100 border border-gray-300 rounded-r-full flex items-center justify-center hover:bg-gray-200">
+        </a>
+      </div>
+      <div className="flex justify-center col-span-10">
+        <div className="flex w-full max-w-xl">
+          <input
+            type="text"
+            placeholder="Search"
+            className="w-full border border-gray-300 rounded-l-full px-4 py-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+          />
+          <button className="bg-gray-100 px-4 rounded-r-full border border-gray-300 hover:bg-gray-200">
             <IoSearchOutline className="text-xl" />
           </button>
-          <span className="absolute bottom-12 left-1/2 -translate-x-1/2 bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none">
-            Search
-          </span>
         </div>
-
-        {/* Mic Button */}
         <button className="ml-4 p-2 bg-gray-100 rounded-full hover:bg-gray-200">
-          <FaMicrophone className="text-md" />
+          <ImMic className="text-lg" />
         </button>
       </div>
-
-      {/* Right - Notifications + Profile */}
-      <div className="flex items-center gap-4">
-        {/* Notification with Tooltip */}
-        <div className="relative group">
-          <div className="p-2 hover:bg-gray-200 rounded-full cursor-pointer">
-            <IoIosNotificationsOutline className="text-2xl" />
-          </div>
-          <span className="absolute bottom-12 left-1/2 -translate-x-1/2 bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none">
-            Notifications
-          </span>
-        </div>
-
-        {/* Profile Placeholder */}
-        <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
+      <div className="flex items-center justify-end gap-6 col-span-1">
+        <IoIosNotificationsOutline className="text-2xl cursor-pointer" />
+        <FaUserCircle className="h-8 w-8 text-gray-600 cursor-pointer" />
       </div>
     </div>
   );
 };
 
 export default Head;
-
