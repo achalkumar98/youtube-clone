@@ -3,6 +3,7 @@ import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import { useEffect } from "react";
 import CommentsContainer from "./CommentsContainer";
+import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
   const [searchParams] = useSearchParams();
@@ -46,13 +47,10 @@ const WatchPage = () => {
         </div>
       </div>
 
-      {/* Right Sidebar */}
+      {/* Live Chat */}
       <aside className="w-full lg:w-96 p-4 border-t lg:border-t-0 lg:border-l border-gray-200 overflow-y-auto">
-        <h2 className="text-lg font-semibold mb-4">Up next</h2>
-        <div className="space-y-4">
-          <div className="h-24 bg-gray-200 rounded-lg animate-pulse"></div>
-          <div className="h-24 bg-gray-200 rounded-lg animate-pulse"></div>
-          <div className="h-24 bg-gray-200 rounded-lg animate-pulse"></div>
+        <div>
+          <LiveChat />
         </div>
       </aside>
     </div>

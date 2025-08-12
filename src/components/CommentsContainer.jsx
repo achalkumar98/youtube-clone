@@ -2,56 +2,56 @@ import { FaUserCircle } from "react-icons/fa";
 
 const commentsData = [
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Priya Sharma",
+    text: "Absolutely loved this tutorial, so easy to follow!",
     replies: [],
   },
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Rohan Mehta",
+    text: "This cleared up so many doubts I had, thanks!",
     replies: [
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Aditi Kapoor",
+        text: "Same here, it was really helpful!",
         replies: [],
       },
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Vikram Singh",
+        text: "Glad you found it useful, Aditi!",
         replies: [
           {
-            name: "Achal Kumar",
-            text: "this is the best video in entiern youtube channel",
+            name: "Ayesha Khan",
+            text: "Totally agree with you, Vikram!",
             replies: [],
           },
           {
-            name: "Achal Kumar",
-            text: "this is the best video in entiern youtube channel",
+            name: "Karan Verma",
+            text: "I learned so much from this video.",
             replies: [
               {
-                name: "Achal Kumar",
-                text: "this is the best video in entiern youtube channel",
+                name: "Sanya Patel",
+                text: "Same here, can't wait for the next one!",
                 replies: [
                   {
-                    name: "Achal Kumar",
-                    text: "this is the best video in entiern youtube channel",
+                    name: "Deepak Joshi",
+                    text: "The editing on this was top-notch too.",
                     replies: [],
                   },
                   {
-                    name: "Achal Kumar",
-                    text: "this is the best video in entiern youtube channel",
+                    name: "Ravi Kumar",
+                    text: "Yes! The examples were spot on.",
                     replies: [],
                   },
                   {
-                    name: "Achal Kumar",
-                    text: "this is the best video in entiern youtube channel",
+                    name: "Nisha Agarwal",
+                    text: "Wish all tutorials were this clear.",
                     replies: [],
                   },
                 ],
               },
               {
-                name: "Achal Kumar",
-                text: "this is the best video in entiern youtube channel",
+                name: "Manoj Yadav",
+                text: "Exactly, I binged the whole playlist.",
                 replies: [],
               },
             ],
@@ -59,51 +59,52 @@ const commentsData = [
         ],
       },
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Ananya Desai",
+        text: "You should make more videos like this.",
         replies: [],
       },
     ],
   },
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Harsh Malhotra",
+    text: "The way you explained the concept was perfect.",
     replies: [
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Isha Bansal",
+        text: "Agreed! Short and simple.",
         replies: [],
       },
     ],
   },
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Mehul Saxena",
+    text: "I finally understand this topic, thanks!",
     replies: [
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Pooja Thakur",
+        text: "Happy learning, Mehul!",
         replies: [],
       },
     ],
   },
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Sahil Gupta",
+    text: "This was exactly what I was searching for.",
     replies: [
       {
-        name: "Achal Kumar",
-        text: "this is the best video in entiern youtube channel",
+        name: "Simran Arora",
+        text: "Glad you found it useful!",
         replies: [],
       },
     ],
   },
   {
-    name: "Achal Kumar",
-    text: "this is the best video in entiern youtube channel",
+    name: "Neha Reddy",
+    text: "Best explanation I’ve seen in months.",
     replies: [],
   },
 ];
+
 
 const Comment = ({ data }) => {
   const { name, text } = data;
