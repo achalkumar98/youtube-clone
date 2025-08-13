@@ -62,8 +62,9 @@ YOUTUBE-CLONE/
 
 
 🔑 Environment Variables
-Variable	Description
+Variable	         Description
 VITE_GOOGLE_API_KEY	YouTube Data API v3 key for fetching videos & suggestions
+
 
 🚀 Getting Started
 # Clone the repository
@@ -81,16 +82,21 @@ echo "VITE_GOOGLE_API_KEY=your_youtube_api_key" > .env
 # Run the development server
 npm run dev
 
+
+
 🤝 Contribution Guidelines
-Fork the repository
 
-Create a new branch (feature/your-feature-name)
+1. Fork the repository
 
-Commit changes (git commit -m 'Add some feature')
+2. Create a new branch (feature/your-feature-name)
 
-Push to branch (git push origin feature/your-feature-name)
+3. Commit changes (git commit -m 'Add some feature')
 
-Open a Pull Request
+4. Push to branch (git push origin feature/your-feature-name)
+
+5. Open a Pull Request
+
+
 
 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
