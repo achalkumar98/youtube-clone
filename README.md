@@ -60,8 +60,14 @@ VITE_GOOGLE_API_KEY	YouTube Data API v3 key for fetching videos & suggestions
 
 • Icons: React Icons
 
-🎥 Demo Video
-<p align="center"> <a href="https://drive.google.com/file/d/1aFTUeX_3YndsfGrqPOw-MKeLkERVRJzl/view?usp=sharing" target="_blank"> <img src="assets/demo-thumbnail.png" alt="Watch Demo" width="600" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"> </a> </p>
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1aFTUeX_3YndsfGrqPOw-MKeLkERVRJzl/view?usp=sharing" target="_blank">
+    <img src="assets/demo-thumbnail.png" alt="Watch Demo" width="600">
+  </a>
+</p>
+
 
 🤝 Contribution Guidelines
 1. Fork the repository
