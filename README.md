@@ -1,12 +1,76 @@
-# React + Vite
+# 🎥 YouTube Clone — React + Redux + YouTube Data API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **YouTube clone** built with **React**, **Redux Toolkit**, **Tailwind CSS**, and the **YouTube Data API v3**.  
+This project replicates YouTube’s core features including video browsing, search suggestions, nested comments, and a simulated live chat.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📺 **Browse Trending Videos** — Live data fetched from YouTube API
+- 🔍 **Instant Search Suggestions** — Typeahead results powered by YouTube search API
+- 💬 **Nested Comments** — Recursive component rendering for threaded discussions
+- ⚡ **Live Chat Simulation** — Randomized usernames and messages
+- 📂 **Responsive Sidebar Navigation** — Toggle menu for categories
+- 🎨 **Modern UI** — Styled with Tailwind CSS for clean and responsive design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React 18, React Router v6
+- **State Management:** Redux Toolkit
+- **Styling:** Tailwind CSS
+- **API:** YouTube Data API v3
+- **Icons:** React Icons
+- **Utilities:** Custom helper functions for random data generation
+
+---
+
+## 📂 Folder Structure
+
+src/
+│── components/ # Reusable UI components
+│── utils/ # Redux slices, constants, helpers
+│── App.jsx # Main application wrapper
+│── index.jsx # Entry point
+
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ **Clone the repository**
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Set up environment variables
+   Create a .env file in the root directory:
+  
+VITE_GOOGLE_API_KEY=your_youtube_api_key
+
+
+4️⃣ Run the app
+npm run dev
+
+
+
+🔑 API Key Setup
+You’ll need a YouTube Data API v3 key.
+Get yours from Google Cloud Console.
+
+
+📜 License
+This project is licensed under the MIT License — feel free to use and modify it.
+
+🤝 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you’d like to change.
+
