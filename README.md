@@ -6,7 +6,7 @@
 ![YouTube API](https://img.shields.io/badge/API-YouTube%20Data%20API%20v3-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-[![Watch the demo](assets/demo-thumbnail.png)](https://drive.google.com/file/d/1aFTUeX_3YndsfGrqPOw-MKeLkERVRJzl/view?usp=sharing)
+[![Watch the demo](assets/demo-thumbnail.png)](https://drive.google.com/file/d/16toRiga47LpVGagjHQP2Ooo7cqTCSzdj/view?usp=sharing)
 
 A fully responsive, **React 18**-powered YouTube clone built with **Redux Toolkit** and **Tailwind CSS**, using the **YouTube Data API v3** for real-time content.  
 Includes advanced features like **live chat simulation**, **nested comments**, and **search suggestions with caching**.
