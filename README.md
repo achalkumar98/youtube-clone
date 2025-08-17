@@ -1,6 +1,6 @@
 # 🎥 YouTube Clone — React + Redux Toolkit + Tailwind CSS 🚀
 
-![React](https://img.shields.io/badge/React-18-blue)
+![React](https://img.shields.io/badge/React-blue)
 ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-RTK-purple)
 ![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-teal)
 ![YouTube API](https://img.shields.io/badge/API-YouTube%20Data%20API%20v3-red)
@@ -8,7 +8,7 @@
 
 [![Watch the demo](assets/demo-thumbnil.png)](https://drive.google.com/file/d/16toRiga47LpVGagjHQP2Ooo7cqTCSzdj/view?usp=sharing)
 
-A fully responsive, **React 18**-powered YouTube clone built with **Redux Toolkit** and **Tailwind CSS**, using the **YouTube Data API v3** for real-time content.  
+A fully responsive, **React **-powered YouTube clone built with **Redux Toolkit** and **Tailwind CSS**, using the **YouTube Data API v3** for real-time content.  
 Includes advanced features like **live chat simulation**, **nested comments**, and **search suggestions with caching**.
 
 ---
@@ -32,7 +32,7 @@ Includes advanced features like **live chat simulation**, **nested comments**, a
 
 ## 📦 Tech Stack
 
-- ⚛️ **React 18**
+- ⚛️ **React**
 - 🛠 **Redux Toolkit**
 - 🎨 **Tailwind CSS**
 - 🌐 **YouTube Data API v3**
