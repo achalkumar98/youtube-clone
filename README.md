@@ -68,7 +68,7 @@ VITE_GOOGLE_API_KEY	YouTube Data API v3 key for fetching videos & suggestions
 
 🚀 Getting Started
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/achalkumar98/youtube-clone.git
 
 # Navigate to the project folder
 cd your-repo
